@@ -1,16 +1,91 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio website built with React and Vite.
 
-Currently, two official plugins are available:
+This website introduces myself, my skills, projects, and contact information. It is designed to be clean, responsive, and easy to use on both desktop and mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Responsive design
+- Dark / Light mode
+- Vietnamese / English language switch
+- Smooth scrolling navigation
+- Active navigation highlight
+- Scroll animations with Framer Motion
+- Project showcase section
+- Contact section
+- Download CV button
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Icons
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+
+## Project Structure
+
+```text
+src/
+├── app/
+├── features/
+├── providers/
+├── shared/
+├── widgets/
+└── pages/
+```
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/bapp234/portfolio.git](https://github.com/bapp234/portfolio.git)
+   ```
+
+2. **Go to the project folder:**
+
+   ```bash
+    cd portfolio
+   ```
+3. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+4. **Run development server:**
+
+    ```bash
+    npm run dev
+    ```
+5. **Build for production:**
+
+    ```bash
+    npm run build
+    ```
+## Future Improvements
+[ ] Project detail modal
+
+[ ] Backend integration
+
+[ ] Blog section
+
+[ ] Admin dashboard
+
+[ ] Contact form with email service
+
+[ ] Project filtering
+## Author
+Ngô Hoàng Sang
+
+GitHub: https://github.com/bapp234
+
+Email: hoangsang998@gmail.com
+>>>>>>> a709de8e0d1caca17aa70ca099aa915225c05784
