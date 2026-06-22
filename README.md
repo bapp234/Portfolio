@@ -42,3 +42,49 @@ src/
 ├── shared/
 ├── widgets/
 └── pages/
+```
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/portfolio.git](https://github.com/your-username/portfolio.git)
+   ```
+
+2. **Go to the project folder:**
+
+   ```bash
+    cd portfolio
+   ```
+3. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+4. **Run development server:**
+
+    ```bash
+    npm run dev
+    ```
+5. **Build for production:**
+
+    ```bash
+    npm run build
+    ```
+## Future Improvements
+[ ] Project detail modal
+
+[ ] Backend integration
+
+[ ] Blog section
+
+[ ] Admin dashboard
+
+[ ] Contact form with email service
+
+[ ] Project filtering
+## Author
+Ngô Hoàng Sang
+
+GitHub: your-github
+
+Email: your-email@example.com
