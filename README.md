@@ -1,32 +1,44 @@
-# Personal Portfolio
+# Personal Portfolio Website
 
-A modern and responsive developer portfolio built to showcase my projects, technical skills, and professional journey.
+My personal portfolio website built with React and Vite.
+
+This website introduces myself, my skills, projects, and contact information. It is designed to be clean, responsive, and easy to use on both desktop and mobile devices.
 
 ## Features
 
 - Responsive design
 - Dark / Light mode
-- English / Vietnamese support
+- Vietnamese / English language switch
 - Smooth scrolling navigation
-- Framer Motion animations
-- Project showcase with detailed modal views
+- Active navigation highlight
+- Scroll animations with Framer Motion
+- Project showcase section
 - Contact section
-- Downloadable CV
+- Download CV button
 
 ## Tech Stack
 
 ### Frontend
+
 - React
 - Vite
 - Tailwind CSS
 - Framer Motion
+- React Icons
 
 ### Tools
+
 - Git
 - GitHub
-- ESLint
+- VS Code
 
-## Author
+## Project Structure
 
-Ngô Hoàng Sang
-Backend-focused Fullstack Developer
+```text
+src/
+├── app/
+├── features/
+├── providers/
+├── shared/
+├── widgets/
+└── pages/
