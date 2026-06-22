@@ -47,7 +47,7 @@ src/
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/portfolio.git](https://github.com/your-username/portfolio.git)
+   git clone [https://github.com/bapp234/portfolio.git](https://github.com/bapp234/portfolio.git)
    ```
 
 2. **Go to the project folder:**
@@ -85,6 +85,6 @@ src/
 ## Author
 Ngô Hoàng Sang
 
-GitHub: your-github
+GitHub: [your-github](https://github.com/bapp234)
 
-Email: your-email@example.com
+Email: hoangsang998@gmail.com
