@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --page-bg: #f5ece0;       /* bỏ cam đậm → kem nhạt trung tính */
+  --page-bg-soft: #fdf6ec;  /* trắng ngà thay vì cam sáng chói */
+
+  --text: #1c110a;          /* vẫn đậm, nhưng không bị "nặng" trên nền sáng */
+  --muted: #3d2b1f;         /* nâu trung đậm, dễ đọc */
+
+  --panel: #fff9f0;         /* trắng kem, gần như trắng */
+  --panel-soft: #ecddc8;    /* tông ấm nhẹ, phân tách panel mà không chói */
+
+  --border: #c4a07a;        /* nhạt hơn nhiều so với #8e613c cũ */
+
+  --accent: #7a4a30;        /* giữ tone nâu đỏ nhưng sáng hơn, ít "nặng" hơn */
+  --accent-hover: #5c3420;
+
+  --button-text: #fdf6ec;
+}
+
+.dark {
+  --page-bg: #1f1712;
+  --page-bg-soft: #2a1d15;
+
+  --text: #f6ead6;
+  --muted: #c9b69e;
+
+  --panel: #2d2119;
+  --panel-soft: #3a2a20;
+
+  --border: #8a6a4a;
+
+  --accent: #c49a6c;
+  --accent-hover: #d8b589;
+
+  --button-text: #1f1712;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(255, 243, 220, 0.22), transparent 360px),
+    radial-gradient(circle at top right, rgba(223, 192, 154, 0.18), transparent 340px),
+    linear-gradient(180deg, var(--page-bg-soft), var(--page-bg));
+}
+
+#root {
+  min-height: 100vh;
+}
+@keyframes role-marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.role-marquee {
+  animation: role-marquee 14s linear infinite;
+}
+
+.role-marquee:hover {
+  animation-play-state: paused;
+}
+html,
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
