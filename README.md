@@ -85,6 +85,6 @@ src/
 ## Author
 Ngô Hoàng Sang
 
-GitHub: [your-github](https://github.com/bapp234)
+GitHub: https://github.com/bapp234
 
 Email: hoangsang998@gmail.com
