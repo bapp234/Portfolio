@@ -61,14 +61,14 @@ export function HeaderWidget() {
             aria-label="Main navigation"
           >
             {navItems.map((item) => {
-  const current = item.href.replace('#', '');
+              const current = item.href.replace('#', '');
 
-  return (
-    <a
-      key={item.href}
-      href={item.href}
-      onClick={closeMenu}
-      className={`
+              return (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  onClick={closeMenu}
+                  className={`
         relative
         inline-flex
         w-fit
@@ -89,32 +89,31 @@ export function HeaderWidget() {
         after:transition-all
         after:duration-300
 
-        ${
-          activeSection === current
-            ? `
+        ${activeSection === current
+                      ? `
               text-[var(--text)]
               after:w-2/3
             `
-            : `
+                      : `
               text-[var(--muted)]
               after:w-0
               hover:text-[var(--text)]
               hover:after:w-2/3
             `
-        }
+                    }
       `}
-    >
-      {getNavLabel(item.href)}
-    </a>
-  );
-})}
+                >
+                  {getNavLabel(item.href)}
+                </a>
+              );
+            })}
           </nav>
 
           <div className="ml-auto flex items-center gap-2 sm:gap-3">
             <LanguageToggle />
             <ThemeToggle />
             <a
-              href="/cv.pdf"
+              href="/Ngo_Hoang_Sang_CV.pdf"
               download
               className="
               group
@@ -176,13 +175,13 @@ export function HeaderWidget() {
           <Container className="py-3">
             <nav className="flex flex-col gap-2" aria-label="Mobile navigation">
               {navItems.map((item) => {
-  const current = item.href.replace('#', '');
+                const current = item.href.replace('#', '');
 
-  return (
-    <a
-      key={item.href}
-      href={item.href}
-      className={`
+                return (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    className={`
         relative
         inline-flex
         items-center
@@ -205,25 +204,24 @@ export function HeaderWidget() {
         hover:scale-105
         lg:px-5
 
-        ${
-          activeSection === current
-            ? `
+        ${activeSection === current
+                        ? `
               text-[var(--text)]
               after:w-2/3
             `
-            : `
+                        : `
               text-[var(--muted)]
               after:w-0
               hover:text-[var(--text)]
               hover:after:w-2/3
             `
-        }
+                      }
       `}
-    >
-      {getNavLabel(item.href)}
-    </a>
-  );
-})}
+                  >
+                    {getNavLabel(item.href)}
+                  </a>
+                );
+              })}
             </nav>
 
             <a
